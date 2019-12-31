@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title%}Home plugs - control page{% endblock %}
+
+{% block content %}
+	<h1>Home plugs - control page</h1>
+	<p>
+		This is my basic home plugs control page!
+	</p>
+	<form method="post">
+	<p>
+		<h2>Switch ON:</h2>
+		<input type="checkbox" name="plug1" value="Plug1"> Plug 1 - Anaya's Light<br>
+		<input type="checkbox" name="plug2" value="Plug2"> Plug 2 - Xmas Light<br>
+		<input type="checkbox" name="plug3" value="Plug3"> Plug 3 - Zavi's Light<br>
+		<input type="checkbox" name="plug4" value="Plug4"> Plug 4 - Coffee<br>
+		<input type="checkbox" name="plug5" value="Plug5"> Plug 5 - Amplifier<br>
+		<br>
+		<h2>Switch OFF:</h2>
+		<input type="checkbox" name="plug1" value="Plug1"> Plug 1 - Anaya's Light<br>
+		<input type="checkbox" name="plug2" value="Plug2"> Plug 2 - Xmas Light<br>
+		<input type="checkbox" name="plug3" value="Plug3"> Plug 3 - Zavi's Light<br>
+		<input type="checkbox" name="plug4" value="Plug4"> Plug 4 - Coffee<br>
+		<input type="checkbox" name="plug5" value="Plug5"> Plug 5 - Amplifier<br>
+		<br>
+		<br>
+		<button type="submit">Do it!</button>
+	</p>
+	</form>
+{% endblock %}
