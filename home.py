@@ -10,6 +10,8 @@ def welcome():
 	if request.method == "POST":
 		# do something!
 		print("hmmm")
+		plug = 	{"Plug1" : request.form['plug1']}
+		print("value of plug1", request.form['plug1']) 
 		return render_template("home.html")
 	else:
 		return render_template("home.html")
